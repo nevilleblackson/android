@@ -62,53 +62,43 @@ public class MainActivity extends AppCompatActivity {
         switch (vraagnnummer) {
             case 1:
                 echteantwoord = 1;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "A" + "\n" + "\n";
+                tekst = "1 + 1 \n\n" + "A: 2\n" + "B: 3\n" + "C: 999\n" + "C: 42";
                 break;
             case 2:
                 echteantwoord = 2;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 2";
+                tekst = "1 * 1 \n\n" + "A: 2\n" + "B: 1\n" + "C: 42\n" + "C: 9";
                 break;
             case 3:
                 echteantwoord = 3;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 3";
+                tekst = "1 : 1 \n\n" + "A: 20\n" + "B: 1\n" + "C: 0\n" + "C: 412";
                 break;
             case 4:
                 echteantwoord = 4;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 4";
+                tekst = "1 + 2 \n\n" + "A: 412\n" + "B: 23\n" + "C: 999\n" + "C: 3";
                 break;
             case 5:
                 echteantwoord = 3;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 5";
+                tekst = "1 + 5 \n\n" + "A: 234\n" + "B: 12\n" + "C: 6\n" + "C: 42";
                 break;
             case 6:
                 echteantwoord = 2;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 6";
+                tekst = "1 + 9 \n\n" + "A: 134\n" + "B: 10\n" + "C: 5\n" + "C: 424242";
                 break;
             case 7:
                 echteantwoord = 1;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 7";
+                tekst = "1 + 25 \n\n" + "A: 26\n" + "B: 59\n" + "C: 95\n" + "C: 62";
                 break;
             case 8:
                 echteantwoord = 2;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 8";
+                tekst = "1 + 1 + 1  \n\n" + "A: 33\n" + "B: 3\n" + "C: 546\n" + "C: 42";
                 break;
             case 9:
                 echteantwoord = 3;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 9";
+                tekst = "1 + 1 - 2 \n\n" + "A: 3\n" + "B: 1\n" + "C: 0\n" + "C: 2";
                 break;
             case 10:
-                echteantwoord = 2;
-                tekst = "blablalbblblablbla  blablalbblblablbla blablalbblblablbla blablalbblblablbla \n" +
-                        "  dit is vraag 10";
+                echteantwoord = 4;
+                tekst = "(5*17 (98 * 105) + 16 - 39 (39² - 999999) +200000) ÷ 1 + 42  \n" + "A: 2\n" + "B: 3\n" + "C: 999\n" + "C: 42";
                 break;
             default:
                 tekst = "je had " + punten + " vragen goed ";
