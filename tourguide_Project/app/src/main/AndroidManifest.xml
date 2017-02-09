@@ -15,9 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".evenementen" />
-        <activity android:name=".Destad" />
-        <activity android:name=".winkels"></activity>
+        <activity
+            android:name=".EvenementenActivity"
+            android:label="@string/evenementen"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".StadActivity"
+            android:label="@string/stad"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".WinkelActivity"
+            android:label="@string/winkels"
+            android:parentActivityName=".MainActivity"/>/>
     </application>
 
 </manifest>

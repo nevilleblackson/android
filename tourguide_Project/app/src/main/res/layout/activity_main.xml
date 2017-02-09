@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.gebruiker.tourguide_project.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:src="@drawable/mainimg"
+            android:contentDescription="@string/afbeelding_aandebovenkant" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen"
+            android:layout_marginBottom="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#28d697"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:id="@+id/winkels"
+            android:text="@string/winkels"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bc421d"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:id="@+id/stad"
+            android:text="@string/stad"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#91edcc"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:id="@+id/evenementen"
+            android:text="@string/evenementen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dace45"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:id="@+id/lidl"
+            android:text="@string/lidl"/>
+    </LinearLayout>
+</ScrollView>

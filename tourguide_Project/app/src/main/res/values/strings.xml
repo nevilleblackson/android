@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">" tourguide_Project"</string>
+    <string name="moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen">moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/moet nog doen/</string>
+    <string name="winkels">winkels</string>
+    <string name="stad">Stad</string>
+    <string name="evenementen">evenementen</string>
+    <string name="lidl">lidl</string>
+    <string name="winkel">winkel</string>
+    <string name="afbeelding_aandebovenkant" />
+    <string name="evenementen_afbeelding_bocenkant">evenementen afbeelding bocenkant</string>
+    <string name="evenementen_almere">evenementen Almere</string>
 </resources>
