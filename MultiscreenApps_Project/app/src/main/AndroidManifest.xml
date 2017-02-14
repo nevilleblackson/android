@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gebruiker.tourguide_project">
+    package="com.example.gebruiker.multiscreenapps_project">
 
     <application
         android:allowBackup="true"
@@ -17,16 +17,21 @@
         </activity>
         <activity
             android:name=".EvenementenActivity"
-            android:label="@string/evenementen"
-            android:parentActivityName=".MainActivity"/>
+            android:label="Evenementen"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".StadActivity"
-            android:label="@string/stad"
-            android:parentActivityName=".MainActivity"/>
+            android:label="Stad"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".WinkelActivity"
-            android:label="@string/winkels"
-            android:parentActivityName=".MainActivity"/>/>
+            android:label="Winkels"
+            android:parentActivityName=".MainActivity" />
+        />
+        <activity
+            android:name=".WeerActivity"
+            android:label="weer"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

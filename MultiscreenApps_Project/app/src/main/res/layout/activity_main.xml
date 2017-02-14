@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:src="@drawable/mainimg"
+            android:contentDescription="afbeelding_aandebovenkant" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Station Almere Centrum is het belangrijkste spoorwegstation in Almere, in het stadsdeel Almere Stad. Het ligt aan het traject Weesp – Lelystad en werd geopend op 30 mei 1987. Het werd toen nog Almere Centraal Station genoemd"
+            android:layout_marginBottom="38dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#28d697"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:id="@+id/winkels"
+            android:text="winkels"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#864124"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:id="@+id/evenementen"
+            android:text="evenementen"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c23434"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:id="@+id/weer"
+            android:text="weer"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MultiscreenApps_Project</string>
+    <string name="evenementen_afbeelding_bocenkant" />
+    <string name="evenementen_almere" />
+    <string name="afbeelding_aandebovenkant" />
+    <string name="moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen_moet_nog_doen" />
+    <string name="winkels" />
+    <string name="stad" />
+    <string name="evenementen" />
+    <string name="lidl" />
+</resources>
