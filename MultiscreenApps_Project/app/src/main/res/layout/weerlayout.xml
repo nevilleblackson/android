@@ -30,6 +30,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignBaseline="@id/naam"
             android:textSize="16sp"
+            android:paddingRight="10dp"
             android:textColor="#010101"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
